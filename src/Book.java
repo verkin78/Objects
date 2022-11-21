@@ -1,20 +1,20 @@
 public class Book {
     String bookName;
-    String augther;
-    int createYear;
+    String bookAuther;
+    String createYear;
 
-    public Book(String bookName, String augther, int createYear) {
+    public Book(String bookName, String bookAuther, String createYear) {
         this.bookName = bookName;
-        this.augther = augther;
+        this.bookAuther = bookAuther;
         this.createYear = createYear;
     }
             public String getBookName() {
         return bookName;
     }
-    public String getAugther() {
-        return augther;
+    public String getBookAuther() {
+        return bookAuther;
     }
-    public int getCreateYear() {
+    public String getCreateYear() {
         return createYear;
     }
     public void setCreateYear() {
