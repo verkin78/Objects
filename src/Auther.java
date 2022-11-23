@@ -18,12 +18,13 @@ public class Auther {
     }
 
     @Override
-    private boolean equals(Object 0) {
-        if (this == 0) return true;
-        if (0 == null || getClass() != getClass()) return fales;
-        Auther auther = (Auther) 0;
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        Auther auther = (Auther) object;
         return name.equals(auther.name) && lastName.equals(auther.lastName);
     }
+
 
     @Override
     public int hashCode() {

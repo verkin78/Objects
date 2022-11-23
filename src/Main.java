@@ -6,9 +6,9 @@
         Book book2 = new Book("Weather at Home", auther2, "1794");
 
         System.out.println("Книга 1");
-        System.out.println("book1");
+        System.out.println(book1);
         System.out.println("Книга 2");
-        System.out.println("book2");
+        System.out.println(book2);
     }
 }
 
